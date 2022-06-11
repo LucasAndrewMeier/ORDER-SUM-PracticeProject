@@ -1,0 +1,89 @@
+.main{
+  width: 1440px;
+  height: 720px;
+  background-image: url(./pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  box-shadow: 0 4px 8px 0 rgba(149, 149, 149, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-hero {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    height: fit-content;
+  }
+}
+.order-summary {
+  box-shadow: 0 4px 8px 0 rgba(149, 149, 149, 0.2);
+  border-radius: 25px;
+  background-color: white;
+  width: 30%;
+  text-align: center;
+}
+h2, h4{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+h4{
+  margin-bottom: 0;
+}
+
+p{
+  font-size: 16px;
+   color: hsl(224, 23%, 55%);
+}
+.order-info{
+  max-width: 80%;
+  margin: auto;
+}
+.selected-plan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 25px;
+  width: 80%;
+  margin: auto;
+}
+.plan-details p{
+  margin-top:2px;
+}
+.fake-link{
+  justify-self: flex-end;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+.fake-link:hover{
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary-btn{
+  border: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  width: 80%;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px hsl(245, 71%, 29%);
+}
+.primary-btn:hover{
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px hsl(245, 75%, 52%);
+}
+.secondary-btn:hover{
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+  cursor: pointer;
+}
